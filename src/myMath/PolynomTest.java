@@ -15,7 +15,7 @@ import org.junit.Test;
 
 public class PolynomTest {
 	public static void main(String[] args) {
-		testGoodExamples();
+		testExamples();
 		testF();
 		testAddPolynom_able();
 		testAddMonom();
@@ -32,7 +32,7 @@ public class PolynomTest {
 		
 	}
 
-	public static void testGoodExamples() {
+	public static void testExamples() {
 		System.out.println("*****  TestGoodExamples:  *****");
 		String[] polynoms = {"x^6", "4x+5", "3x^4+2x^3+4x^4+6"};
 		for (int i = 0; i < polynoms.length; i++) {
